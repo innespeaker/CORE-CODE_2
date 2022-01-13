@@ -52,4 +52,21 @@ ________________________________________________________________________________
 
 # DAY 3 01/12/2022
 
+1.
+R//
+BINARY, DECIMAL, HEXADECIMAL NUMBERS
+
+Decimals
+To understand binary and hexadecimal numbers, it is best to have a good understanding of how decimal numbers work.
+Each digit of a decimal number goes in one "place", and the decimal point tells us what position each one is.
+The position just to the left of the point is the "units". Every time we move to the left it is worth 10 times more, and to the right it is worth 10 times less:
+
+```
+17.591
+
+1           7             .          5            9              1
+Decenas - Unidades- Decimal point - Decimos - Centésimos - milésimos
+```
+
+But this is only a way of writing numbers. There are other ways like Roman numerals, binary, hexadecimal, and more. You could even mark dots on a piece of paper!
 _________________________________________________________________________________________________________________________________________________________________________________
