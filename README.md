@@ -12,13 +12,13 @@ R// The Java language is both compiled and interpreted. The compiler converts th
 
 3.
 R// 
-
+```
 INICIO
    VARIABLE Quetzales
    LEER <- Quetzales
    IMPRIMIR -> "Quetzales equivalentes en Dolares" Quetzales / 7.70
 FIN
-
+```
 4.
 R// Ready
 
@@ -27,7 +27,6 @@ R// When you're writing code in a programming language, you’ll have to battle 
 
 6.
 R//
-
 ```
 INICIO
 Funcion calculateAge(birthDate):
