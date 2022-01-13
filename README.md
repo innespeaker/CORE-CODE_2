@@ -134,3 +134,16 @@ Decimal      Binary       Hexadecimal
  14           1110            E
  15           1111            F
 ```
+
+2.
+R//
+Date of birth 1997
+Binary 11111001101
+Hexadecimal 7CD
+
+3.
+R//
+51966
+
+Hexadecimal: CAFE
+Binary: 1100101011111110
