@@ -1,4 +1,7 @@
 # CORE-CODE_2
+_________________________________________________________________________________________________________________________________________________________________________________
+
+# DAY 2 01/11/2022
 
 1. 
 
@@ -25,6 +28,7 @@ R// When you're writing code in a programming language, you’ll have to battle 
 6.
 R//
 
+```
 INICIO
 Funcion calculateAge(birthDate):
     today = 2022
@@ -32,7 +36,7 @@ Funcion calculateAge(birthDate):
      
    Imprimir(calculateAge(birthDate), "Years")
 FIN
-
+```
 7.
 R// Ready
 
@@ -43,3 +47,10 @@ R//A software programmer can use flowcharts sketched on a whiteboard as part of 
 Most programming languages that you will have heard of are high-level languages. Python and C# are examples of high-level languages that are widely used in education and in the workplace. A high-level language is one that is user-oriented in that it has been designed to make it straightforward for a programmer to convert an algorithm into program code.
 
 A low-level language is machine-oriented. Low-level programs are expressed in terms of the machine operations that must be performed to carry out a task. This makes writing programs more difficult, as the algorithm must be specified in terms of the capabilities and specifications of the processor. Low-level languages are named for the processor (or processor family) that they are designed for, and are often referred to as assembly language or machine code.
+_________________________________________________________________________________________________________________________________________________________________________________
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
+# DAY 3 01/12/2022
+
+_________________________________________________________________________________________________________________________________________________________________________________
