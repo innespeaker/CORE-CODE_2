@@ -223,7 +223,7 @@ ________________________________________________________________________________
 # WEEK 2
 _________________________________________________________________________________________________________________________________________________________________________________
 
-# DAY TUESDAY 18/03/2022
+# DAY TUESDAY 18/01/2022
 #Multiply
 ```
 function multiply(a, b){
@@ -274,5 +274,55 @@ function finalGrade (exam, projects) {
   }else{
    return 0; 
   }
+}
+```
+_________________________________________________________________________________________________________________________________________________________________________________
+# DAY WEDNESDAY 19/01/2022
+#Holiday VIII - Duty Free
+```
+function dutyFree(normPrice, discount, hol){
+  let amount = hol / (normPrice * (discount * 0.01))
+  amount = Math.floor(amount)
+  
+  return amount;
+}
+
+```
+#Twice as old
+```
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - (sonYearsOld * 2))
+}
+```
+#Valid Spacing
+```
+function validSpacing(s) {
+  let last = s[0];
+  if(s[0] === " " || s[s.length - 1] === " "){
+    return false
+  }
+  
+  for(let i =1; i < s.length; i++){
+    if(last === " " && last === s[i]){
+      return false
+    }
+    last = s[i];
+  }
+  
+  return true;
+}
+```
+#Fake Binary
+```
+function fakeBin(x){
+  let result = [];
+  for(let i = 0; i < x.length; i++) {
+    if(parseInt(x[i], 10) < 5)
+      result.push('0')
+    
+    if(parseInt(x[i]) >= 5)
+       result.push('1');
+  }
+  return result.join(""); 
 }
 ```
