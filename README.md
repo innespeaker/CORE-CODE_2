@@ -1,5 +1,7 @@
 # CORE-CODE_2
 _________________________________________________________________________________________________________________________________________________________________________________
+# WEEK 1
+_________________________________________________________________________________________________________________________________________________________________________________
 
 # DAY 2 01/11/2022
 
@@ -218,3 +220,59 @@ R//
 
 ```      
 _________________________________________________________________________________________________________________________________________________________________________________      
+# WEEK 2
+_________________________________________________________________________________________________________________________________________________________________________________
+
+# DAY TUESDAY 18/03/2022
+#Multiply
+```
+function multiply(a, b){
+  return a * b;
+}
+```
+#ASCII Total
+```
+function uniTotal (string) {
+  let counter = 0;
+  
+  for (let i = 0; i < string.length; i++){
+    counter += string.charCodeAt(i);
+  }
+  return counter;
+}
+```
+#get character from ASCII Value
+```
+function getChar(c){
+  return String.fromCharCode(c)
+}
+```
+#Binary Addition
+```
+function addBinary(a,b) {
+  let c = a + b
+  
+  let cBinary = c.toString(2)
+  
+  return cBinary
+}
+```
+#Student's Final Grade
+```
+function finalGrade (exam, projects) {
+  if(exam > 90 || projects > 10) {
+    
+    return 100;
+  }
+  
+  if(exam > 75 && projects >= 5) {
+     return 90;
+  }
+  
+  if(exam > 50 && projects >= 2) {
+    return 75;
+  }else{
+   return 0; 
+  }
+}
+```
